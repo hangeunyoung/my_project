@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(img/worn-paper-texture-151613662106.jpg);
+    background-repeat: no-repeat;
+}
+
+.box {
+    /* background-color: #d5db9a; */
+    background-color: rgba(213, 219, 154, 0.7);
+    border-radius: 25px;    
+    width: 500px;
+    max-width: 500px;
+    height: 300px;
+}
+
+.text-box {
+    font-family: 'Diphylleia', serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.text-box h2 {
+    line-height: 1.8;
+    text-align: center;
+    padding: 20px 20px 27px 20px;
+}
+.text-box b::before {
+    content: '- ';    
+}
+.text-box b::after {
+    content: ' -';    
+}
