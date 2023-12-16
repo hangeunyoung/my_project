@@ -1,5 +1,7 @@
 # my_project-2023-11-14
 
+https://hangeunyoung.github.io/my_project/
+
 - 기능구현: 매 5초마다 랜덤하게 새로운 명언 출력
 - 작업내용:
     - 명언데이터작성
